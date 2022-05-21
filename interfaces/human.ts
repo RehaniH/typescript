@@ -19,6 +19,12 @@ me = {
 class Instructer implements Human{
     firstName: string;
     age: number;
+
+    constructor(firstName: string, age: number){
+        this.firstName = firstName;
+        this.age = age;
+    }
+    
     greet(){
         console.log('Hello !!!');
     }
